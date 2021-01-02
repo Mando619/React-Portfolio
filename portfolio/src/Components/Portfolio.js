@@ -1,19 +1,21 @@
 import React from 'react';
+import userData from './data';
 
-const Portfolio = ({ projectData }) => {
+
+const Work = () => {
+
     return (
-        <div className="container">
-            <h2>Projects</h2>
-            <div classname="projects-container">
-                {projectData.map((projects) => (
-                    <div key={projects.id} className="projects">
-                        <div className="projectImages">
-                            <a href={projects.url}>
-                                <img src={projects.img} alt={projects.title}></img>
+        <div className="projects_container">
+            <div className="myWorks_container">
+                {userData.projects.map((project) => (
+                    <div key={project.id} className="project">
+                        <div className="image">
+                            <a href={project.url}>
+                                <img src={project.photo} alt={project.title}></img>
                             </a>
                         </div>
-                        <div classname="title">
-                            {projects.title}
+                        <div className="title">
+                            {project.title}
                         </div>
                     </div>
                 ))}
@@ -22,4 +24,4 @@ const Portfolio = ({ projectData }) => {
     )
 }
 
-export default Portfolio;
+export default Work;

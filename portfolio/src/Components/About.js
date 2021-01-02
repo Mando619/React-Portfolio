@@ -1,24 +1,19 @@
 import React from 'react';
-import mydata from './mydata';
+import userData from './data';
+import Header from './Header';
 import Contact from './Contact';
-import Header from '/Nav';
+
 
 const About = () => {
     return (
         <div>
-            <Header name={mydata.name} contact={mydata.email}></Header>
-            <div className="about-container">
-                <h1>{mydata.about}</h1>
-                <p>{mydata.myInfo}</p>
-                <div classname="contact-container">
-                    <Contact contact={mydata.contact}
-                        contactData={mydata.contactData}
-                        myLinks={mydata.myLinks}>
-                    </Contact>
-                </div>
+            <Header name={userData.name} myContact={userData.myContact}></Header>
+            <div className="about_container">
+                <h2>{userData.aboutMe}</h2>
             </div>
+            <Contact></Contact>
         </div>
-    );
+    )
 }
 
 export default About;
