@@ -3,8 +3,6 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
 import userData from './data';
 
 
-
-
 const Contact = () => {
 
   return (
