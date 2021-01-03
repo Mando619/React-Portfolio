@@ -12,7 +12,7 @@ const Home = () => {
           <p>{userData.aboutMe}</p>
         </div>
         <div className="image_container">
-          <img src={userData.startImage} alt="picture of Mando"></img>
+          <img src={userData.startImage} alt="Author"></img>
         </div>
       </div>
     </div>
