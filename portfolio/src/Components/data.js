@@ -4,13 +4,13 @@ const userData = {
 
     myContact: "estrada.mando7@gmail.com",
 
-    startName: "Armando Estrada",
+    name: "Armando Estrada",
 
-    startImage: "images/myImage.jpg",
+    myImage: "images/myImage.jpg",
 
     backGroundImage: "images/black-white-background.jpg",
 
-    aboutMe: "Full Stack Web Developer with over 20 years in the hospitality industry. Customer service has been my trait and passion. Now to implement newly developed web skills with my experienced background. I'm proficient in problem solving any given tasks. Whether it be alone, or in collaboration with a group. Below are projects and works I have completed",
+    aboutMe: "Full Stack Web Developer with over 10 years in the hospitality industry. Customer service has been my trait and passion. Now to implement newly developed web skills with my experienced background. I'm proficient in problem solving any given tasks. Whether it be alone, or in collaboration with a group. Below are projects and works I have completed",
 
     projects: [
         {
@@ -68,3 +68,5 @@ const userData = {
 }
 
 export default userData;
+
+
