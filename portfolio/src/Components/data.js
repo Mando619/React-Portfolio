@@ -4,50 +4,69 @@ const userData = {
 
     myContact: "estrada.mando7@gmail.com",
 
-    name: "Armando Estrada",
+    myResume: "images/ArmandosResume.pdf",
 
     myImage: "images/myImage.jpg",
 
     backGroundImage: "images/black-white-background.jpg",
 
-    aboutMe: "Full Stack Web Developer with over 10 years in the hospitality industry. Customer service has been my trait and passion. Now to implement newly developed web skills with my experienced background. I'm proficient in problem solving any given tasks. Whether it be alone, or in collaboration with a group. Below are projects and works I have completed",
+    aboutMe: "Im a Full Stack Web developer with extensive experience in customer service. A fast learner who possesses a strong analytical approach to problem solving. Applies interpersonal and communication skills in working with all levels of personnel. Embraces teamwork while possessing the drive and ability to work independently in deadline driven environments .Eager to exceed in the web field with a commending customer service background. Getting  maximum results with the intent of receiving returning clients or referrals. Fluent in English and Spanish.",
 
     projects: [
         {
             id: 5,
             title: "Inn At The Edge Of Copyright",
             url: "https://github.com/n-lambert/Inn-At-The-Edge-of-Copyright",
-            photo: "images/innattheedge.png"
+            github: "https://github.com/n-lambert/Inn-At-The-Edge-of-Copyright",
+            photo: "images/innattheedge.png",
+            githubTitle: "Github Repository"
+
+
         },
         {
             id: 1,
             title: "Mood Me",
             url: "https://github.com/Mando619/Mood-Me-",
-            photo: "images/Moodme.png"
+            github: "https://github.com/Mando619/Mood-Me-",
+            photo: "images/Moodme.png",
+            githubTitle: "Github Repository"
+
         },
         {
             id: 2,
-            title: "Employee-Tracker",
+            title: "Employee Tracker",
             url: "https://github.com/Mando619/Employee-Tracker",
-            photo: "images/employee-tracker.png"
+            github: "https://github.com/Mando619/Employee-Tracker",
+            photo: "images/employee-tracker.png",
+            githubTitle: "Github Repository"
+
         },
         {
             id: 3,
-            title: "Note-Taker",
+            title: "Note Taker",
             url: "https://github.com/Mando619/Note-Taker",
-            photo: "images/note-taker.png"
+            github: "https://github.com/Mando619/Note-Taker",
+            photo: "images/note-taker.png",
+            githubTitle: "Github Repository"
+
         },
         {
             id: 4,
-            title: "Employee-Generator",
+            title: "Employee Generator",
             url: "https://github.com/Mando619/Employee-Summary-Generator",
-            photo: "images/employee-generator.png"
+            github: "https://github.com/Mando619/Employee-Summary-Generator",
+            photo: "images/employee-generator.png",
+            githubTitle: "Github Repository"
+
         },
         {
             id: 6,
-            title: "Eat-The-Burger-Express",
+            title: "Burger Express",
             url: "https://github.com/Mando619/Eat-Da-Burger-Express",
-            photo: "images/burger.png"
+            github: "https://github.com/Mando619/Eat-Da-Burger-Express",
+            photo: "images/burger.png",
+            githubTitle: "Github Repository"
+
         }
     ],
 
@@ -63,6 +82,10 @@ const userData = {
         {
             name: "Facebook",
             url: "https://www.facebook.com/mando.estrada.9"
+        },
+        {
+            name: "Medium",
+            url: "https://medium.com/@estrada.mando7"
         }
     ],
 }

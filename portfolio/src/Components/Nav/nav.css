@@ -1,18 +1,29 @@
 /* justify content aligns the flex into how ever wanted. align items  */
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 10vh;
-    background: rgb(73, 79, 82);
+    display:inherit;
+    background-color: #ddd;
+    background: lightslategray;
     color: white;
+    overflow:hidden;
 }
 
-.nav-links {
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.navbar-right li {
+    position:inherit;
+    float: right;
+    color: white;
     list-style: none;
+    line-break:loose;
+}
+
+
+.nav_name {
+    justify-content: end;
+    padding: 10px;
+    margin: 0;
+    color: white
+}
+
+.navbar_container {
+    padding-top: 30px;
 }
