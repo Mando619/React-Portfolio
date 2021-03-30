@@ -1,7 +1,29 @@
 
+.about_container {
+    position: relative;
+    color: black;
+    margin-bottom: 100px;
+    
+}
 .btn {
     font-size: 40px;
     padding: 10px;
-    align-content:flex-end;
-    border-color: black;
+    text-align: center;
+    color: black;
+    top: 25%
 }
+img {
+    max-width: 50%;  
+    height: auto;  
+    border-radius: 50px;
+}
+.image_container {
+    display:flex;
+    flex-direction: row;
+}
+.description {
+    padding: 25px;
+    text-align:inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

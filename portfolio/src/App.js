@@ -8,7 +8,7 @@ import Card from './Components/Card/Card';
 import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
 import Footer from './Components/Footer/Footer';
-
+//import HomePage from './Pages/HomePage/'
 function App() {
   return (
     <Router>
@@ -24,6 +24,7 @@ function App() {
           <About></About>
           <Card></Card>
           <Skills></Skills>
+          <Projects></Projects>
         </Route>
       </Switch>
       <Footer></Footer>

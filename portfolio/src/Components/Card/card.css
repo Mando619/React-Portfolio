@@ -1,15 +1,17 @@
 body {
     display: flex;
     align-content: center;
+    position: sticky;
 }
 
 
-.card {
-    max-width: 25em;
+.card_container {
+    max-width: 30em;
     margin:auto;
     text-align: center;
     font-family: arial;
     border: 0;
+    padding: 10px;
 }
 
 .title {
@@ -31,7 +33,7 @@ button {
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100px;
+    width: 125px;
     font-size: 18px;
 }
 
@@ -50,10 +52,18 @@ p {
 }
 
 .picture {
-    width: 40%;
+    width: 50%;
     margin:auto;
+    border-radius: 50px;
 }
 
 .social_links {
-    margin: 24px 0;
+    margin: 30px 0;
+}
+
+.middle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
+    font-size: 2rem;
 }

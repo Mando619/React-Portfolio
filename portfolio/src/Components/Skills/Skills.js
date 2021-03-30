@@ -6,7 +6,7 @@ import './skills.css';
 const Skills = () => {
     return (
         <div className="skills_column">
-            <h3>Skills</h3>
+            <h3>Skills:</h3>
             <i className="devicon-javascript-plain"></i>
             <i className="devicon-mongodb-plain-wordmark"></i>
             <FaReact></FaReact>

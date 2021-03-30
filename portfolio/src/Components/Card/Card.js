@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaFacebook, FaMedium } from 'react-icons/fa';
 const Card = () => {
     return (
         <div>
-            <div className="card">
+            <div className="card_container">
                 <img className="picture" src={userData.myImage} alt="Author"></img>
                 <p>{userData.name}</p>
                 <p className="title">Full Stack Web developer</p>
@@ -28,6 +28,11 @@ const Card = () => {
                     <p><button>Contact</button></p>
                 </div>
             </div>
+            <p className="middle">
+                                  Below are links to my projects and works I have completed. Still continuing my growth and knowledge by 
+                                  perfecting my already known skills, and learning more amongst other languges.
+                                    
+                                </p>
         </div>
     );
 }

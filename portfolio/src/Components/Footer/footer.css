@@ -1,14 +1,16 @@
 
 .footer_container{
+    background-color: slateblue;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    align-items: center; 
+    align-items:flex-start;
     width: 80vw;
     top: 3rem;
     position: relative;
     list-style: none;
     line-break:loose;
+    max-width: auto;
 }
 
 .footer {
