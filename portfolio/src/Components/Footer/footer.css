@@ -1,20 +1,13 @@
 
 .footer_container{
-    background-color: slateblue;
-    display: flex;
+    background-color:slateblue;
+    display:block;
+    text-align: center;
+}   
+.footer_links a {
+    display:inline-block;
     flex-direction: row;
-    justify-content:space-evenly;
-    align-items:flex-start;
-    width: 80vw;
-    top: 3rem;
-    position: relative;
-    list-style: none;
-    line-break:loose;
-    max-width: auto;
+    text-decoration: none;
+    color: black;
+    position:inherit;
 }
-
-.footer {
-    display:flex;
-    flex-direction: row;
-}
-

@@ -3,6 +3,26 @@ import './card.css';
 import userData from '../data';
 import { FaGithub, FaLinkedin, FaFacebook, FaMedium } from 'react-icons/fa';
 
+
+ const buttonStyle = {
+    border: "none",
+    outline: "0",
+    display: "inline-block",
+    padding: "8px",
+    color: "white",
+    textAlign: "center",
+    cursor: "pointer",
+    width: "125px",
+    fontSize: "18px",
+    backgroundColor: "black",
+ }
+
+ const linkStyles = {
+    textDecoration: "none",
+    fontSize: "22px",
+    color: "black",
+ }
+
 const Card = () => {
     return (
         <div>
@@ -12,7 +32,7 @@ const Card = () => {
                 <p className="title">Full Stack Web developer</p>
                 <br></br>
                 <p className="skills">JavaScript | ReactJS | MERN Stack</p>
-                <div className="social_links">
+                <div className="links">
                     <a href={userData.myLinks[0].url}>
                         <FaGithub></FaGithub>
                     </a>
@@ -25,12 +45,15 @@ const Card = () => {
                     <a href={userData.myLinks[3].url}>
                         <FaMedium></FaMedium>
                     </a>
-                    <p><button>Contact</button></p>
                 </div>
+
+                    <div className="cardButton">
+                    <p><button style={buttonStyle}>Contact</button></p>
+                    </div>
             </div>
             <p className="middle">
                                   Below are links to my projects and works I have completed. Still continuing my growth and knowledge by 
-                                  perfecting my already known skills, and learning more amongst other languges.
+                                  perfecting my already known skills, and learning more amongst other languages.
                                     
                                 </p>
         </div>

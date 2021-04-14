@@ -1,17 +1,18 @@
 /* justify content aligns the flex into how ever wanted. align items  */
 
 nav {
-    background-color:slateblue;
+    background-color:white;
     display: flex;
     flex-direction: row;
+    
 
 }
 .navbar-right li {
-    position: relative;
-    color: white;
+    text-align: right;
+    color: blueviolet;
     line-break:loose;
-    display:inline-flex;
-    padding-right: 2rem;
+    display: inline-flex;
+    padding-right: 3rem;
     
 }
 
@@ -20,7 +21,7 @@ nav {
     justify-content: end;
     padding: 10px;
     margin: 0;
-    color: white
+    color: blueviolet;
 }
 
 .navbar_container {
@@ -29,7 +30,7 @@ nav {
     margin-bottom: 50px;
 }
 
-li:hover, li:link, li:active {
+ li:hover, li:link, li:active {
     opacity: 0.7;
     text-decoration: none;
 }

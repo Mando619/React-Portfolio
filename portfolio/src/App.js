@@ -8,7 +8,7 @@ import Card from './Components/Card/Card';
 import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
 import Footer from './Components/Footer/Footer';
-//import HomePage from './Pages/HomePage/'
+//import NavbarTest from './Components/NavbarTest/NavbarTest';
 function App() {
   return (
     <Router>
