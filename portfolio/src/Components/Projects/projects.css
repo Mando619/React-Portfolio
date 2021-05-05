@@ -1,10 +1,31 @@
-.container {
+.container .project_image {
     display:flex;
-    flex-wrap: wrap;
-    text-align: inherit;
+    flex-wrap: wrap; 
+    margin: auto;
+}
+
+.card_container img {
+    margin-top: 5cm;
+    max-width: 100%;  
+    height: auto;  
+    border-radius: 50px;
 
 }
 
-.card_container .project_image {
-    
+.container button {
+border-radius: 2cm;
+
+}
+ 
+.project p  {
+    margin-top: 1em;
+    font-size: 20px;
+    font-display:inherit;
+    font-weight: bold;
+}
+
+.project a {
+    font-size: 2em;
+    color:blueviolet;
+
 }

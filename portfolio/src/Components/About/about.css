@@ -12,8 +12,8 @@
     color: black;
     top: 25%
 }
-img {
-    max-width: 50%;  
+.image_container img {
+    max-width: 40%;  
     height: auto;  
     border-radius: 50px;
     object-fit:cover;

@@ -1,12 +1,14 @@
 import React from 'react';
 import './nav.css';
 import { Link } from 'react-router-dom';
+import userData from '../data';
 
 const Nav = () => {
     return (
         <div>
             <nav className="navbar_container">
-                <Link to="/"> <h2 className="nav_name">Armando Estrada</h2></Link>
+                <img className="small_image" src={userData.avatarImage} alt="myAvatar"></img>
+                <Link to="/"> <h2>Armando Estrada</h2></Link>
                 <ul className="navbar-right">
                     <Link to="/projects"><li>Projects</li></Link>
                     <Link to="/contact"><li>Contact</li></Link>

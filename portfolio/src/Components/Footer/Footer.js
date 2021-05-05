@@ -30,6 +30,9 @@ const Footer = () => {
                             <FaMedium></FaMedium>
                         </a>
                     </button>
+                    <div className="copyright">
+                        <p>Copy right Armando Estrada </p>
+                    </div>
                 </div>
             </div>
         </div>

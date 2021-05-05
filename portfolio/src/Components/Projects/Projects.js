@@ -15,7 +15,8 @@ const Projects = () => {
                         </div>
                         <div className="title">{project.title}
                         </div>
-                        <a className="btn-default" href={project.github}>
+                        <p>{project.projectDescription}</p>
+                        <a className="button" href={project.github}>
                             <i className="fab fa-github"></i>
                                     Github Repository
                                 </a>

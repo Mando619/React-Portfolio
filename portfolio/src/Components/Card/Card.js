@@ -4,25 +4,6 @@ import userData from '../data';
 import { FaGithub, FaLinkedin, FaFacebook, FaMedium } from 'react-icons/fa';
 
 
- const buttonStyle = {
-    border: "none",
-    outline: "0",
-    display: "inline-block",
-    padding: "8px",
-    color: "white",
-    textAlign: "center",
-    cursor: "pointer",
-    width: "125px",
-    fontSize: "18px",
-    backgroundColor: "black",
- }
-
- const linkStyles = {
-    textDecoration: "none",
-    fontSize: "22px",
-    color: "black",
- }
-
 const Card = () => {
     return (
         <div>
@@ -48,7 +29,7 @@ const Card = () => {
                 </div>
 
                     <div className="cardButton">
-                    <p><button style={buttonStyle}>Contact</button></p>
+                    <p><button>Contact</button></p>
                     </div>
             </div>
             <p className="middle">

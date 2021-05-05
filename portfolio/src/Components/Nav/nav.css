@@ -1,33 +1,45 @@
 /* justify content aligns the flex into how ever wanted. align items  */
 
-nav {
-    background-color:white;
-    display: flex;
-    flex-direction: row;
-    
 
-}
 .navbar-right li {
-    text-align: right;
-    color: blueviolet;
-    line-break:loose;
-    display: inline-flex;
-    padding-right: 3rem;
-    
+   display:inline-block;
+   padding-right: 2rem;
+   color: blueviolet;
+    font-size: 2em;
 }
 
+.navbar_container img {
+    border-radius: 20px;
+    margin-left: 2em;
+    
+}
+/* text-align: right;
+justify-content:baseline;
+color: blueviolet;
+line-break:auto;
+padding-right: 4rem;
+list-style: none;
+font-size: 2em; */
 
-.nav_name {
+.navbar_container h2 {
     justify-content: end;
     padding: 10px;
-    margin: 0;
+    margin-right: 19em;
     color: blueviolet;
+    text-decoration: none;
 }
+
 
 .navbar_container {
     padding-top: 20px;
     list-style: none;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    text-decoration: none;
 }
 
  li:hover, li:link, li:active {
