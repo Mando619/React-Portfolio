@@ -12,7 +12,7 @@ const userData = {
 
     avatarImage: "images/github.jpg",
 
-    aboutMe: "Im a Full Stack Web developer with extensive experience in customer service. A fast learner who possesses a strong analytical approach to problem solving. Applies interpersonal and communication skills in working with all levels of personnel. Embraces teamwork while possessing the drive and ability to work independently in deadline driven environments .Eager to exceed in the web field with a commending customer service background. Getting  maximum results with the intent of receiving returning clients or referrals. Fluent in English and Spanish.",
+    aboutMe: "Full Stack Web developer with extensive experience in customer service. A fast learner who possesses a strong analytical approach to problem solving. Applies interpersonal and communication skills in working with all levels of personnel. Embraces teamwork while possessing the drive and ability to work independently in deadline driven environments. Eager in exceeding the web field with a commending customer service background. Getting  maximum results with the intent of receiving returning clients or referrals. Fluent in English and Spanish.",
 
     projects: [
         {
@@ -22,7 +22,7 @@ const userData = {
             github: "https://github.com/n-lambert/Inn-At-The-Edge-of-Copyright",
             photo: "images/innattheedge.png",
             githubTitle: "Github Repository",
-            projectDescription: "RPG-text based game created with React.js JavaSctipt library, and Socket.io for real time chat. Rendering users form input, and showcasing it through JavaScript. Incorporated Auth o for players access and ability to save character information."
+            projectDescription: "RPG-text based game created with React.js JavaScript library, and Socket.io for real time chat. Rendering users form input, and showcasing it through JavaScript. Incorporated Auth-O for players access and ability to save character information."
 
         },
         {
@@ -70,7 +70,7 @@ const userData = {
             github: "https://github.com/Mando619/Eat-Da-Burger-Express",
             photo: "images/burger.png",
             githubTitle: "Github Repository",
-            projectDescription: "This appliction is used for storing and deleting data on a preference of what burger you would like to eat. Using MYSQL, Express, and Node.js, the user is able to write a description of what they want to eat. Through the deployed application, an html templated will be generated using express, express-handlebars. Using Method Over ride to use Crud put and delete with submission of HTML form."
+            projectDescription: "This appliction is used for storing and deleting data on a preference of what burger you would like to eat. Using MYSQL, Express, and Node.js, the user is able to write a description of what they want to eat. Through the deployed application, an html template will be generated using express, express-handlebars. Using Method Over ride to use Crud put and delete with submission of HTML form."
         }
     ],
 

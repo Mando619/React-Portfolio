@@ -19,13 +19,13 @@ border-radius: 2cm;
  
 .project p  {
     margin-top: 1em;
-    font-size: 20px;
+    font-size: 16px;
     font-display:inherit;
     font-weight: bold;
 }
 
 .project a {
-    font-size: 2em;
+    font-size: 1em;
     color:blueviolet;
 
 }

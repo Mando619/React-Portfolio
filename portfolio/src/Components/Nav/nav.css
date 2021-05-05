@@ -5,7 +5,7 @@
    display:inline-block;
    padding-right: 2rem;
    color: blueviolet;
-    font-size: 2em;
+   font-size: 25px;
 }
 
 .navbar_container img {
@@ -13,13 +13,6 @@
     margin-left: 2em;
     
 }
-/* text-align: right;
-justify-content:baseline;
-color: blueviolet;
-line-break:auto;
-padding-right: 4rem;
-list-style: none;
-font-size: 2em; */
 
 .navbar_container h2 {
     justify-content: end;
@@ -28,7 +21,6 @@ font-size: 2em; */
     color: blueviolet;
     text-decoration: none;
 }
-
 
 .navbar_container {
     padding-top: 20px;

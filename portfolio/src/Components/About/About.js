@@ -10,8 +10,7 @@ const About = () => {
                 <div className='image_container'>
                     <img className="image" src={userData.backGroundImage} alt="BackGround"></img>
                     <div className="description">
-                        <p>Hello...</p>
-                        <h2>{userData.aboutMe}</h2>
+                        <p>{userData.aboutMe}</p>
                         <a className="btn" href={userData.myResume}>
                             <i class="fal fa-file-user"></i>
                                     My resume
