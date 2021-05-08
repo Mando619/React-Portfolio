@@ -28,16 +28,20 @@ const Card = () => {
                     </a>
                 </div>
 
-                    <div className="cardButton">
-                    <p><button>Contact</button></p>
-                    </div>
+                <div className="cardButton">
+                    <a href={userData.myContact}>
+                        <p><button>Contact</button></p>
+                    </a>
+
+
+                </div>
             </div>
-            <p className="middle">
+            {/* <p className="aboutMe">
                                   Below are links to my projects and works I have completed. Still continuing my growth and knowledge by 
                                   perfecting my already known skills, and learning more amongst other languages.
                                     
-                                </p>
-        </div>
+                                </p> */}
+        </div >
     );
 }
 

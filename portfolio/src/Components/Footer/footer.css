@@ -4,8 +4,9 @@
     text-align:right;
     justify-content:space-evenly;
     margin-bottom: 1em;
-    margin-right: 30px;
+    margin-right: 75px;
     border: none;
+    
     
 }   
 .footer_links a {
@@ -13,12 +14,12 @@
     flex-direction:row;
     color: blueviolet;
     border: none;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .footer_links button {
     border: none;
-    background-color: white;
+    background-color: black;
 }
 
  .copyright p {

@@ -3,7 +3,7 @@
     position: relative;
     color: black;
     margin-bottom: 100px;
-    margin-top: 10em;
+    margin-top: 8em;
     
 }
 .btn {
@@ -31,9 +31,20 @@
     text-align:justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-right: 2em;
+    color:greenyellow;
 }
 
 .btn a {
     justify-content: center;
+    
 }
 
+.btn {
+    color:greenyellow;
+}
+
+.about_container h1 {
+margin-left: 4cm;
+margin-bottom: 1cm;
+color: blueviolet;
+}

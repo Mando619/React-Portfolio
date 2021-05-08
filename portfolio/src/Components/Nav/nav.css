@@ -1,16 +1,31 @@
 /* justify content aligns the flex into how ever wanted. align items  */
+.navbar_container {
+    /* background-image:url(../../code-background-1477280.jpg); */
+    overflow: hidden;
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-style: solid;
+    border-color: greenyellow;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
 
+}
 
 .navbar-right li {
    display:inline-block;
+   position:relative;
    padding-right: 2rem;
-   color: blueviolet;
+   color: greenyellow;
+   font-weight: bolder;
    font-size: 25px;
 }
 
 .navbar_container img {
     border-radius: 20px;
     margin-left: 2em;
+    margin-bottom: 5px;
     
 }
 
@@ -18,8 +33,9 @@
     justify-content: end;
     padding: 10px;
     margin-right: 19em;
-    color: blueviolet;
+    color: greenyellow;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .navbar_container {

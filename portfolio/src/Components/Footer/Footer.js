@@ -31,7 +31,7 @@ const Footer = () => {
                         </a>
                     </button>
                     <div className="copyright">
-                        <p>Copy right Armando Estrada </p>
+                        <p>Copy right 2021</p>
                     </div>
                 </div>
             </div>

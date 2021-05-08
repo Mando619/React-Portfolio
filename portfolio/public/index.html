@@ -49,13 +49,14 @@
 </body>
 
 <script>
-  $('.navTrigger').click(function () {
-    $(this).toggleClass('active');
-    console.log("Clicked menu");
-    $("#mainListDiv").toggleClass("show_list");
-    $("#mainListDiv").fadeIn();
-
-  });
+  function myFunction() {
+    var x = document.getElementByClassName("navbar_container");
+    if (x.className === "navbar_container") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar_container";
+    }
+  }
 </script>
 
 </html>

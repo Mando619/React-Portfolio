@@ -1,23 +1,13 @@
-/* * {
-  outline: none;
-  background-image: url(jjjp.jpg);
-  background-image: no-repeat;
-  background-position: center;
-  background-size: cover;
-} */
+body {
+  background-color: black;
+  color:greenyellow;
+}
 
+  @media only screen and (max-width: 600px) {
+    .navbar-right {
+      float:left;
+  
+    }
+  }
 
-
-
-/* body {
-  background-image: url(computer.png);
-  background-image: no-repeat;
-  background-position: center;
-  background-size: cover;
-  justify-content: center; 
-} */
-
-/*width: 100%;
-height: auto;
-opacity: 0.3; */
-
+ 

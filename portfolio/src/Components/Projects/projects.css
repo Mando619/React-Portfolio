@@ -6,9 +6,13 @@
 
 .card_container img {
     margin-top: 5cm;
-    max-width: 100%;  
+    max-width: 110%;  
     height: auto;  
     border-radius: 50px;
+
+}
+
+.card_container {
 
 }
 
@@ -28,4 +32,17 @@ border-radius: 2cm;
     font-size: 1em;
     color:blueviolet;
 
+}
+
+.container p {
+    margin-top: 1em;
+}
+
+.projectName {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.project i {
+    font-size: 40px;
 }
