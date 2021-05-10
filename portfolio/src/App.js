@@ -20,7 +20,7 @@ function App() {
         <Route path="/contact">
           <Contact></Contact>
         </Route>
-        <Route path="/">
+        <Route exact path="/">
           <About></About>
           <Card></Card>
           <Skills></Skills>
