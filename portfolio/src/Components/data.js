@@ -8,7 +8,7 @@ const userData = {
 
     myImage: "images/myImage.jpg",
 
-    backGroundImage: "images/computer.png",
+    backGroundImage: "images/legacy-code.png",
 
     avatarImage: "images/github.jpg",
 

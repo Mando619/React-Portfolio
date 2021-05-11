@@ -1,7 +1,7 @@
 import React from 'react';
 import './card.css';
 import userData from '../data';
-import { FaGithub, FaLinkedin, FaFacebook, FaMedium } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFacebook, FaMedium, FaPhone } from 'react-icons/fa';
 
 
 const Card = () => {
@@ -29,10 +29,10 @@ const Card = () => {
                 </div>
 
                 <div className="cardButton">
-                    <a href={userData.myContact}>
+                    <a href={`mailto:${userData.myContact}`}>
                         <p><button>Contact</button></p>
                     </a>
-
+                    <p>For further inquiries, you can reach me at 619-309-9330<FaPhone></FaPhone></p>
 
                 </div>
             </div>
