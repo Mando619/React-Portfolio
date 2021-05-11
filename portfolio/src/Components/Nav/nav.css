@@ -31,9 +31,10 @@
 }
 
 .navbar_container h2 {
-    justify-content: end;
+    /* justify-content: end; */
+    justify-content: left;
     padding: 10px;
-    margin-right: 19em;
+    margin-right: 28em;
     color: greenyellow;
     text-decoration: none;
     font-weight: bold;

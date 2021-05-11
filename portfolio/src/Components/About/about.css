@@ -28,7 +28,7 @@
 }
 .description p {
     font-size: 23px;
-    text-align:justify;
+    text-align:initial;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-right: 2em;
     color:greenyellow;

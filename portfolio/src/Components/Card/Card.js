@@ -32,11 +32,11 @@ const Card = () => {
                     <a href={`mailto:${userData.myContact}`}>
                         <p><button>Contact</button></p>
                     </a>
-                    <p>For further inquiries, you can reach me at 619-309-9330<FaPhone></FaPhone></p>
+                    <p>619-309-9330<FaPhone></FaPhone></p>
 
                 </div>
             </div>
-            {/* <p className="aboutMe">
+            {/* <p className="aboutMe"> 0]
                                   Below are links to my projects and works I have completed. Still continuing my growth and knowledge by 
                                   perfecting my already known skills, and learning more amongst other languages.
                                     
