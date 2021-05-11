@@ -20,7 +20,7 @@ function App() {
         <Route path="/contact">
           <Contact></Contact>
         </Route>
-        <Route path={process.env.PUBLIC_URL + '/'}>
+        <Route basename="/react-portfolio">
           <About></About>
           <Card></Card>
           <Skills></Skills>
