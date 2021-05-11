@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaFacebook, FaMedium } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFacebook, FaMedium, FaCopyright } from 'react-icons/fa';
 import userData from '../data';
 import './footer.css'
 
@@ -31,7 +31,7 @@ const Footer = () => {
                         </a>
                     </button>
                     <div className="copyright">
-                        <p>Copy right 2021</p>
+                        <p><FaCopyright></FaCopyright> 2021</p>
                     </div>
                 </div>
             </div>
