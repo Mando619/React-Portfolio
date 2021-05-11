@@ -6,6 +6,7 @@ const Projects = () => {
     return (
         <div className="container">
             <div className="card_container">
+                <h1>Projects</h1>
                 {userData.projects.map((project) => (
                     <div key={project.id} className="project">
                         <div className="project_image">

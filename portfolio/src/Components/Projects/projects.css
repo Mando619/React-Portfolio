@@ -48,3 +48,8 @@ border-radius: 2cm;
 .project i {
     font-size: 40px;
 }
+
+.container h1 {
+    margin-top: 12rem;
+    font-size: 6rem;
+}
