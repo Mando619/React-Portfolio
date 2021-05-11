@@ -8,11 +8,9 @@ const userData = {
 
     myImage: "images/myImage.jpg",
 
-    backGroundImage: "images/legacy-code.png",
+    backGroundImage: "images/Legacy-code.png",
 
     avatarImage: "images/github.jpg",
-
-    navBackground: "image/navbackground.jpg",
 
     aboutMe: "Full Stack Web developer with extensive experience in customer service. focusing on front end, and back end, development. A fast learner who possesses a strong analytical approach to problem solving. Applies interpersonal and communication skills in working with all levels of personnel. Embraces teamwork while possessing the drive and ability to work independently in deadline driven environments. Eager in exceeding in the web field with a commending customer service background. Getting  maximum results with the intent of receiving returning clients or referrals. Fluent in English and Spanish.",
 
