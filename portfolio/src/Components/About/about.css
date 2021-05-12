@@ -1,7 +1,9 @@
 
 .about_container {
-    position: relative;
+    display:flex;
+    flex-wrap: wrap;
     color: black;
+    vertical-align: top;
     margin-bottom: 100px;
     margin-top: 8em;
     
@@ -17,21 +19,25 @@
     max-width: 35%;  
     height: 475px;  
     border-radius: 50px;
-    float: left;
+    
     margin: 5px;
     text-align: center;
     
 }
 .image_container {
     display:flex;
-    flex-direction: row;
+    margin: auto;
+    /* flex-direction: row; */
+    
 }
 .description p {
     font-size: 23px;
-    text-align:initial;
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-right: 2em;
     color:greenyellow;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .btn a {
