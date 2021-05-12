@@ -12,7 +12,7 @@ const userData = {
 
     avatarImage: "images/github.jpg",
 
-    aboutMe: "Full Stack Web developer with extensive experience in customer service. focusing on front end, and back end, development. A fast learner who possesses a strong analytical approach to problem solving. Applies interpersonal and communication skills in working with all levels of personnel. Embraces teamwork while possessing the drive and ability to work independently in deadline driven environments. Eager in exceeding in the web field with a commending customer service background. Getting  maximum results with the intent of receiving returning clients or referrals. Fluent in English and Spanish.",
+    aboutMe: "Full Stack Web developer with extensive experience in customer service. Focusing on front end, and back end, development. A fast learner who possesses a strong analytical approach to problem solving. Applies interpersonal and communication skills in working with all levels of personnel. Embraces teamwork while possessing the drive and ability to work independently in deadline driven environments. Eager in exceeding in the web field with a commending customer service background. Getting  maximum results with the intent of receiving returning clients or referrals. Fluent in English and Spanish.",
 
     projects: [
         {
@@ -28,7 +28,7 @@ const userData = {
         {
             id: 1,
             title: "Mood Me",
-            url: "https://github.com/Mando619/Mood-Me-",
+            url: "https://mando619.github.io/Mood-Me-/",
             github: "https://github.com/Mando619/Mood-Me-",
             photo: "images/Moodme.png",
             githubTitle: "Github Repository",
@@ -37,7 +37,7 @@ const userData = {
         {
             id: 3,
             title: "Burger Express",
-            url: "https://github.com/Mando619/Eat-Da-Burger-Express",
+            url: "https://polar-earth-66617.herokuapp.com/",
             github: "https://github.com/Mando619/Eat-Da-Burger-Express",
             photo: "images/burger.png",
             githubTitle: "Github Repository",
@@ -55,7 +55,7 @@ const userData = {
         {
             id: 6,
             title: "Note Taker",
-            url: "https://github.com/Mando619/Note-Taker",
+            url: "https://guarded-lake-93163.herokuapp.com/",
             github: "https://github.com/Mando619/Note-Taker",
             photo: "images/note-taker.png",
             githubTitle: "Github Repository",
@@ -65,7 +65,7 @@ const userData = {
         {
             id: 4,
             title: "Employee Generator",
-            url: "https://github.com/Mando619/Employee-Summary-Generator",
+            url: "https://www.youtube.com/watch?v=o9WxMIyOUy8",
             github: "https://github.com/Mando619/Employee-Summary-Generator",
             photo: "images/employee-generator.png",
             githubTitle: "Github Repository",

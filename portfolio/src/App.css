@@ -4,10 +4,11 @@ body {
 }
 
   @media only screen and (max-width: 600px) {
-    .navbar-right {
-      float:left;
-  
+    .about_container {
+      display:flex;
+      flex-wrap: wrap;
     }
-  }
+    }
+
 
  

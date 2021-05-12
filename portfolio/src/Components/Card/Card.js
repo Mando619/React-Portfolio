@@ -13,6 +13,7 @@ const Card = () => {
                 <p className="title">Full Stack Web developer</p>
                 <br></br>
                 <p className="skills">JavaScript | ReactJS | MERN Stack</p>
+                <br></br>
                 <div className="links">
                     <a href={userData.myLinks[0].url}>
                         <FaGithub></FaGithub>
