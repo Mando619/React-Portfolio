@@ -1,6 +1,8 @@
 /* justify content aligns the flex into how ever wanted. align items  */
 .navbar_container {
-    /* background-image:url(../../code-background-1477280.jpg); */
+    background-image: url(../../3.jpg);
+    background-repeat:space;
+    background-size:50%;
     overflow: hidden;
     display:flex;
     flex-wrap: wrap;

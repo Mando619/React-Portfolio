@@ -1,9 +1,5 @@
 
 .about_container {
-    display:flex;
-    flex-wrap: wrap;
-    color: black;
-    vertical-align: top;
     margin-bottom: 100px;
     margin-top: 8em;
     
@@ -16,40 +12,35 @@
     top: 25%
 }
 .image_container img {
-    max-width: 35%;  
+    max-width: 45%;  
     height: 475px;  
-    border-radius: 50px;
-    
+    border-radius: 15px;
+    opacity: 1.2;
     margin: 5px;
     text-align: center;
-    
+       
 }
 .image_container {
     display:flex;
-    margin: auto;
-    /* flex-direction: row; */
+    margin: auto; 
+    flex-direction: row;
     
 }
 .description p {
     font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-right: 2em;
+    margin-left: 1em;
     color:greenyellow;
-    font-display: inherit;
+    
     
 }
 
-.btn a {
-    justify-content: center;
-    
-}
 
-.btn {
+.btn  {
     color:greenyellow;
+    margin-top: 1em;
+   
 }
 
-.about_container h1 {
-margin-left: 4cm;
-margin-bottom: 1cm;
-color: blueviolet;
-}
+
+
