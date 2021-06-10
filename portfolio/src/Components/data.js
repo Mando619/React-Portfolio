@@ -12,7 +12,7 @@ const userData = {
 
     avatarImage: "images/github.jpg",
 
-    aboutMe: "Full Stack Web developer with extensive experience in customer service. Focusing on front end, and back end, development. A fast learner who possesses a strong analytical approach to problem solving. Applies interpersonal and communication skills in working with all levels of personnel. Embraces teamwork while possessing the drive and ability to work independently in deadline driven environments. Eager in exceeding in the web field with a commending customer service background. Getting  maximum results with the intent of receiving returning clients or referrals. Fluent in English and Spanish. Below is a link to my resume.",
+    aboutMe: "Full Stack Web Developer with extensive experience in customer service. Focusing on front end, and back end, development. A fast learner who possesses a strong analytical approach to problem solving. Applies interpersonal and communication skills in working with all levels of personnel. Embraces teamwork while possessing the drive and ability to work independently in deadline driven environments. Eager in exceeding in the web field with a commending customer service background. Getting  maximum results with the intent of receiving returning clients or referrals. Fluent in English and Spanish. Below is a link to my resume.",
 
     projects: [
         {

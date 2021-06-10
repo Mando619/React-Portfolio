@@ -13,24 +13,28 @@
 }
 .image_container img {
     max-width: 45%;  
-    height: 475px;  
+    height: 425px;  
     border-radius: 15px;
     opacity: 1.2;
-    margin: 5px;
-    text-align: center;
+    margin: 10px;
+    float: left;
+    
        
 }
 .image_container {
     display:flex;
     margin: auto; 
     flex-direction: row;
+    margin-top: 4cm;
     
 }
 .description p {
     font-size: 23px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: arial;
     margin-left: 1em;
+    margin-right: 1em;
     color:greenyellow;
+    text-align: justify;
     
     
 }
