@@ -1,6 +1,6 @@
 /* justify content aligns the flex into how ever wanted. align items  */
 .navbar_container {
-    /* background-image: url(../../3.jpg);
+    /* background-image: url(../../codingGreen.jpg);
     background-repeat:space;
     background-size:50%; */
     overflow: hidden;
@@ -17,8 +17,7 @@
 }
 
 .navbar-right li {
-   display:inline-block;
-   position:relative;
+   display:inline-flex;
    padding-right: 2rem;
    color: greenyellow;
    font-weight: bolder;
@@ -50,7 +49,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position:relative;
+    /* position:relative; */
     text-decoration: none;
 }
 

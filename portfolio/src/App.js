@@ -9,6 +9,7 @@ import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
 import Footer from './Components/Footer/Footer';
 //import NavbarTest from './Components/NavbarTest/NavbarTest';
+
 function App() {
   return (
     <Router>
@@ -20,7 +21,7 @@ function App() {
         <Route path="/contact">
           <Contact></Contact>
         </Route>
-        <Route basename="/react-portfolio">
+        <Route basename="//React-Portfolio">
           <About></About>
           <Card></Card>
           <Skills></Skills>

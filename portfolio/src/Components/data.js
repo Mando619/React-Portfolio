@@ -4,7 +4,7 @@ const userData = {
 
     myContact: "estrada.mando7@gmail.com",
 
-    myResume: "images/ArmandosResume.pdf",
+    myResume: "images/ArmandoResume.pdf",
 
     myImage: "images/myImage.jpg",
 

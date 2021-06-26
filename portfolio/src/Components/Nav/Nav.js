@@ -1,9 +1,18 @@
-import React from 'react';
+// import React, { useState, useEffect } from 'react';
 import './nav.css';
 import { Link } from 'react-router-dom';
 import userData from '../data';
 
 const Nav = () => {
+
+    // work on toggle menu =using useffect and usestate.
+    // const toggle = () => {
+    //     state = {
+    //         toggleOn: false
+    //     };
+
+    // }
+
     return (
         <div>
             <nav className="navbar_container">

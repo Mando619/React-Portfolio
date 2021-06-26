@@ -10,7 +10,7 @@ const Card = () => {
             <div className="card_container">
                 <img className="picture" src={userData.myImage} alt="Author"></img>
                 <p>{userData.name}</p>
-                <p className="title">Full Stack Web developer</p>
+                <p className="title">Full Stack Web Developer</p>
                 <br></br>
                 <p className="skills">JavaScript | ReactJS | MERN Stack</p>
                 <br></br>

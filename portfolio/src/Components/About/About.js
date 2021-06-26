@@ -13,8 +13,8 @@ const About = () => {
                         <p>{userData.aboutMe}</p>
                         <a className="btn" href={userData.myResume}>
                             <i class="fal fa-file-user"></i>
-                                    Resume
-                                </a>
+                            Resume
+                        </a>
                     </div>
                 </div>
             </div>

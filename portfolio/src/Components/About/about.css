@@ -2,6 +2,7 @@
 .about_container {
     margin-bottom: 100px;
     margin-top: 8em;
+    border: 0;
     
 }
 .btn {
@@ -13,11 +14,12 @@
 }
 .image_container img {
     max-width: 45%;  
-    height: 425px;  
+    height: 455px;  
     border-radius: 15px;
-    opacity: 1.2;
+    opacity: 0.9;
     margin: 10px;
     float: left;
+    
     
        
 }
@@ -25,16 +27,17 @@
     display:flex;
     margin: auto; 
     flex-direction: row;
-    margin-top: 4cm;
+    margin-top: 5cm;
     
 }
 .description p {
-    font-size: 23px;
+    font-size: 22px;
     font-family: arial;
     margin-left: 1em;
     margin-right: 1em;
     color:greenyellow;
-    text-align: justify;
+    text-align:center;
+    font-weight: bold;
     
     
 }
