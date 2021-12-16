@@ -3,7 +3,7 @@
     margin-bottom: 100px;
     margin-top: 8em;
     border: 0;
-    
+
 }
 .btn {
     font-size: 40px;
@@ -12,41 +12,46 @@
     color: black;
     top: 25%
 }
-.image_container img {
-    max-width: 45%;  
-    height: 455px;  
+/* /* .image_container img {
+    max-width: 45%;
+    height: 455px;
     border-radius: 15px;
     opacity: 0.9;
     margin: 10px;
     float: left;
-    
-    
-       
+}*/
+
+.image_container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    border-radius: 50px;
 }
+
 .image_container {
-    display:flex;
-    margin: auto; 
+    
+    margin: auto;
     flex-direction: row;
     margin-top: 5cm;
-    
+
 }
 .description p {
     font-size: 22px;
     font-family: arial;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-top: 5em;
+    margin-left: 3em;
+    margin-right: 3em;
     color:greenyellow;
     text-align:center;
     font-weight: bold;
-    
-    
-}
 
+}
 
 .btn  {
     color:greenyellow;
     margin-top: 1em;
-   
+    display:block;
 }
 
 

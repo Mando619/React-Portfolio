@@ -7,21 +7,28 @@
     display:flex;
     flex-wrap: wrap;
     margin: auto;
-    border-style: solid;
+    /* border-style: solid;
     border-color: greenyellow;
     border-left: none;
     border-right: none;
     border-top: none;
-    border-radius: 5px;
+    border-radius: 5px; */
 
 }
 
+
+
 .navbar-right li {
-   display:inline-flex;
+    position:absolute;
+    right: 5px;
+    top: 45px;
+    list-style: none;
+   /* display:inline-flex; */
    padding-right: 2rem;
    color: greenyellow;
-   font-weight: bolder;
-   font-size: 25px;
+   font-weight: bold;
+   font-size: 28px;
+   cursor:pointer;
 }
 
 .navbar_container img {

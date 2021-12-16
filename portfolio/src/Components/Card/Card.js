@@ -10,7 +10,7 @@ const Card = () => {
             <div className="card_container">
                 <img className="picture" src={userData.myImage} alt="Author"></img>
                 <p>{userData.name}</p>
-                <p className="title">Full Stack Web Developer</p>
+                <p className="title">Full Stack Developer</p>
                 <br></br>
                 <p className="skills">JavaScript | ReactJS | MERN Stack</p>
                 <br></br>
@@ -33,7 +33,7 @@ const Card = () => {
                     <a href={`mailto:${userData.myContact}`}>
                         <p><button>Contact</button></p>
                     </a>
-                    <p>619-309-9330<FaPhone></FaPhone></p>
+                    <p><FaPhone></FaPhone><br></br>619-309-9330</p>
 
                 </div>
             </div>

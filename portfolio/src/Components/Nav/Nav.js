@@ -18,6 +18,7 @@ const Nav = () => {
             <nav className="navbar_container">
                 <img className="small_image" src={userData.avatarImage} alt="myAvatar"></img>
                 <Link to="/"> <h2>Armando Estrada</h2></Link>
+                <ul className="navbar-right"> <li>Full Stack Engineer</li></ul>
                 {/* <ul className="navbar-right">
                     <Link to="/projects"><li>Projects</li></Link>
                     <Link to="/contact"><li>Contact</li></Link>

@@ -21,7 +21,7 @@ function App() {
         <Route path="/contact">
           <Contact></Contact>
         </Route>
-        <Route basename="//React-Portfolio">
+        <Route basename="/React-Portfolio">
           <About></About>
           <Card></Card>
           <Skills></Skills>
