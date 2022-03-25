@@ -12,7 +12,7 @@ const userData = {
 
     avatarImage: "images/github.jpg",
 
-    aboutMe: "Full Stack Web Developer with extensive experience in customer service. Focusing on front end and back end development. A fast learner who possesses a strong analytical approach to problem solving. Applies interpersonal and communication skills in working with all levels of personnel. Embraces teamwork while possessing the drive and ability to work independently in deadline driven environments. Eager in exceeding in the web field with a commending customer service background. Getting  maximum results with the intent of receiving returning clients or referrals. Fluent in English and Spanish. Below is a link to my resume.",
+    aboutMe: " Full Stack Engineer with extensive experience in customer service. A self-starter who can effectively manage numerous projects simultaneously, meeting daring deadlines, and who thrives in a dynamic environment. As a leader, I directly managed a staff of 25 -100. I nurture talent driving and achieving results through my team. As a bar manager. I Increased revenue by 15%, amounting to 60 k, from 2018-2020. I recently accomplished a 600 + Full Stack Coding bootcamp from the University of California San Diego, where I was educated on practical software development. Focused on JavaScript, React.js. HTML, CSS, Node.JS, MongoDB, MYSQL, and data structures.I am now looking to apply what I’ve learned into a challenging position that will both expand my skills as a Full Stack Engineer, and create an exceptional experience for end users.",
 
     projects: [
         {
